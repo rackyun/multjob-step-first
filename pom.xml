@@ -8,11 +8,15 @@
     <version>0.1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
+    <properties>
+        <mm.version>0.1.0-SNAPSHOT</mm.version>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>com.rackyun.multjob</groupId>
             <artifactId>multjob-main</artifactId>
-            <version>0.1.0-SNAPSHOT</version>
+            <version>${mm.version}</version>
         </dependency>
     </dependencies>
 </project>
