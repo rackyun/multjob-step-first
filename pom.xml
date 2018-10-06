@@ -8,10 +8,6 @@
     <version>0.1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <properties>
-        <mm.version>0.1.0-SNAPSHOT</mm.version>
-    </properties>
-
     <dependencies>
         <dependency>
             <groupId>com.rackyun.multjob</groupId>
@@ -30,14 +26,16 @@
                     <includesList>com.rackyun.multjob:multjob-main</includesList>
                     <generateBackupPoms>false</generateBackupPoms>
                     <allowSnapshots>false</allowSnapshots>
+                    <allowMajorUpdates>false</allowMajorUpdates>
+                    <allowMinorUpdates>false</allowMinorUpdates>
                 </configuration>
             </plugin>
         </plugins>
     </build>
     <scm>
-        <connection>scm:ssh://git@github.com/rackyun/multjob-main.git</connection>
-        <url>https://github.com/rackyun/multjob-main</url>
-        <developerConnection>scm:git:ssh://git@github.com/rackyun/multjob-main.git</developerConnection>
+        <connection>scm:ssh://git@github.com/rackyun/multjob-step-first.git</connection>
+        <url>https://github.com/rackyun/multjob-step-first</url>
+        <developerConnection>scm:git:ssh://git@github.com/rackyun/multjob-step-first.git</developerConnection>
         <tag>v0.1.0</tag>
     </scm>
 
