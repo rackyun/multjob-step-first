@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.rackyun.multjob</groupId>
     <artifactId>multjob-first</artifactId>
-    <version>0.1.1</version>
+    <version>0.1.2-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <dependencies>
@@ -34,7 +34,7 @@
         <connection>scm:ssh://git@github.com/rackyun/multjob-step-first.git</connection>
         <url>https://github.com/rackyun/multjob-step-first</url>
         <developerConnection>scm:git:ssh://git@github.com/rackyun/multjob-step-first.git</developerConnection>
-        <tag>multjob-first-0.1.1</tag>
+        <tag>v0.1.0</tag>
     </scm>
 
     <distributionManagement>
